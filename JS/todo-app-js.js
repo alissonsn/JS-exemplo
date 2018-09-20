@@ -51,7 +51,7 @@ var addTask=function(){
 	incompleteTaskHolder.appendChild(listItem);
 	bindTaskEvents(listItem, taskCompleted);
 
-	taskInput.value="digite aqui";
+	taskInput.value="";
 }
 
 //Edit an existing task.
